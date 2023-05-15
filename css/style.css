@@ -160,3 +160,6 @@ header nav li:last-of-type a {
 .help .container{
     text-align: center;
 }
+.main_banner{
+    margin: auto;
+}
