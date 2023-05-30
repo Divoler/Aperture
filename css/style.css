@@ -265,7 +265,6 @@ header nav li:last-of-type a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 30px;
 }
 .what_we_do article p{
     font-family: 'Poppins', sans-serif;
@@ -273,5 +272,4 @@ header nav li:last-of-type a {
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-    padding-bottom: 6px;
 }
