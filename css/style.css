@@ -295,33 +295,37 @@ header nav li:last-of-type a {
 }
 .clients{
     background: #000000;
+    padding-bottom: 140px;
 }
 .clients .clients_container{
-    max-width: 1040px;
-    margin: auto;
-    text-align: center;
+
+    padding-top: 113px;
+    padding-bottom: 15px;
 }
 .clients .clients_container h2{
-    padding-top: 113px;
+
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
+    text-align: center;
     color: #FFFFFF;
+
 }
 .clients .clients_container h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+    text-align: center;
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.clients .clients_links{
+.clients_links{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 180px;
     padding-left: 180px;
-    padding-bottom: 140px;
+
 }
