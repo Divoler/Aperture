@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1080px) {
+    .clients_links{
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .clients_links img{
+        margin: 15px 15px 15px 15px;
+    }
+}
+
+@media only screen and (max-width: 874px) {
+    header nav ul li{
+        margin-left: 12px;
+    }
+    header nav ul li:first-of-type {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    header nav ul li{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    header nav ul li{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin-left: -25px;
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main_banner p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .help .Need-help{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 513px) {
+    header .container ul{
+        display: block;
+    }
+    header nav ul li{
+        margin-bottom: 10px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 380px){
+    .main_banner .widget_right_bottom li{
+        position: relative;
+        right: -20px;
+    }
+}
+@media only screen and (max-width: 330px){
+    .main_banner .widget_right_bottom li{
+        display: flex;
+    }
+    .main_banner .widget_right_bottom li{
+        position: relative;
+        left: 40px;
+    }
+}
+
+

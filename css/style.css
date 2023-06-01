@@ -257,6 +257,24 @@ header nav li:last-of-type a {
     left: 30px;
     right: 30px;
 }
+.what_we_do h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px ;
+}
 .what_we_do article h5{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -265,6 +283,7 @@ header nav li:last-of-type a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 8px;
 }
 .what_we_do article p{
     font-family: 'Poppins', sans-serif;
@@ -272,4 +291,37 @@ header nav li:last-of-type a {
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+    margin-bottom: 13px;
+}
+.clients{
+    background: #000000;
+}
+.clients .clients_container{
+    max-width: 1040px;
+    margin: auto;
+    text-align: center;
+}
+.clients .clients_container h2{
+    padding-top: 113px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.clients .clients_container h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.clients .clients_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 140px;
 }
