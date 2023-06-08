@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
-        //loop:true,
-        //nav:true,
+        loop:true,
+        nav:true,
         autoplay:true,
         autoplayTimeout:2000,
         navText: [ '', ' ' ],
@@ -15,4 +15,7 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
 });

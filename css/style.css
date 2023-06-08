@@ -52,10 +52,11 @@ header nav li:last-of-type a {
     text-decoration: none;
     padding: 11px 20px;
 }
-.main_banner{
+
+.main_banner {
     height: calc(100vh - 82px);
     background-image: url("../images/IMAGE.jpg");
-    background-size: cover ;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -63,11 +64,13 @@ header nav li:last-of-type a {
     box-sizing: border-box;
     position: relative;
 }
-.main_banner .container{
+
+.main_banner .container {
     max-width: 580px;
     text-align: center;
 }
-.main_banner h3{
+
+.main_banner h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -77,7 +80,8 @@ header nav li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 1px;
 }
-.main_banner h1{
+
+.main_banner h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 54px;
@@ -86,7 +90,8 @@ header nav li:last-of-type a {
     margin-bottom: 18px;
     margin-top: 0px;
 }
-.main_banner p{
+
+.main_banner p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -94,19 +99,19 @@ header nav li:last-of-type a {
     color: #C0C0C0;
 }
 
-.help{
+.help {
     background-color: black;
     padding-top: 113px;
     padding-bottom: 108px;
 }
 
-.help .container{
+.help .container {
     max-width: 571px;
     margin: auto;
     text-align: center;
 }
 
-.Need-help{
+.Need-help {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -116,7 +121,7 @@ header nav li:last-of-type a {
     margin-bottom: 15px;
 }
 
-.about{
+.about {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -126,7 +131,7 @@ header nav li:last-of-type a {
     margin-bottom: 31px;
 }
 
-.contact{
+.contact {
     background-color: #FFFFFF;
     padding: 10px 11px;
     border-radius: 14px;
@@ -142,7 +147,7 @@ header nav li:last-of-type a {
     text-decoration: none;
 }
 
-.contact:before{
+.contact:before {
     content: "";
     display: inline-block;
     width: 32px;
@@ -152,31 +157,36 @@ header nav li:last-of-type a {
     margin-right: 6px;
 }
 
-.help .container{
+.help .container {
     text-align: center;
 }
 
-.information_block{
+.information_block {
     background-size: cover;
     min-height: 600px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.information_block article{
+
+.information_block article {
     max-width: 298px;
     margin-right: 62px;
 }
-.information_block_img1{
+
+.information_block_img1 {
     background-image: url("../images/bg1.jpg");
 }
-.information_block_img2{
+
+.information_block_img2 {
     background-image: url("../images/bg2.jpg");
 }
-.information_block_img3{
+
+.information_block_img3 {
     background-image: url("../images/bg3.jpg");
 }
-.information_block article h3{
+
+.information_block article h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -185,20 +195,23 @@ header nav li:last-of-type a {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.information_block article p{
+
+.information_block article p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
 }
-.widget_right_bottom{
+
+.widget_right_bottom {
     position: absolute;
     right: 40px;
     bottom: 41px;
     display: flex;
 }
-.widget_right_bottom li{
+
+.widget_right_bottom li {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -206,7 +219,8 @@ header nav li:last-of-type a {
     color: #FFFFFF;
     margin-left: 16px;
 }
-.widget_right_bottom li:before{
+
+.widget_right_bottom li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/icon1.svg");
@@ -216,48 +230,58 @@ header nav li:last-of-type a {
     position: relative;
     bottom: -5px;
 }
-.widget_right_bottom li:nth-child(2):before{
+
+.widget_right_bottom li:nth-child(2):before {
     background-image: url("../images/icon2.svg");
 }
-.widget_right_bottom li:nth-child(3):before{
+
+.widget_right_bottom li:nth-child(3):before {
     background-image: url("../images/icon3.svg");
     width: 32px;
     margin-right: 7px;
 }
-.widget_right_bottom li:last-of-type:before{
+
+.widget_right_bottom li:last-of-type:before {
     background-image: url("../images/icon4.svg");
     width: 10px;
     margin-right: 5px;
 }
-.what_we_do{
+
+.what_we_do {
     background-color: #000000;
     padding: 113px 0 84px;
 }
-.what_we_do .container{
+
+.what_we_do .container {
     max-width: 1168px;
     margin: auto;
 }
-.what_we_do .d-flex{
+
+.what_we_do .d-flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.what_we_do article{
+
+.what_we_do article {
     max-width: 576px;
     margin-bottom: 16px;
     position: relative;
 }
-.what_we_do article img{
+
+.what_we_do article img {
     display: block;
     width: 100%;
 }
-.what_we_do article .description{
+
+.what_we_do article .description {
     position: absolute;
     bottom: 30px;
     left: 30px;
     right: 30px;
 }
-.what_we_do h2{
+
+.what_we_do h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -266,16 +290,18 @@ header nav li:last-of-type a {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.what_we_do h4{
+
+.what_we_do h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 23px;
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    margin-bottom: 42px ;
+    margin-bottom: 42px;
 }
-.what_we_do article h5{
+
+.what_we_do article h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -285,7 +311,8 @@ header nav li:last-of-type a {
     color: #FFFFFF;
     margin-bottom: 8px;
 }
-.what_we_do article p{
+
+.what_we_do article p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -293,17 +320,20 @@ header nav li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 13px;
 }
-.clients{
+
+.clients {
     background: #000000;
     padding-bottom: 140px;
 }
-.clients .clients_container{
 
+.clients .container {
+    max-width: 1200px;
+    margin: auto;
     padding-top: 113px;
     padding-bottom: 15px;
 }
-.clients .clients_container h2{
 
+.clients .container h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -312,7 +342,8 @@ header nav li:last-of-type a {
     color: #FFFFFF;
 
 }
-.clients .clients_container h3{
+
+.clients .container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -321,38 +352,310 @@ header nav li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.clients_links{
+
+.clients_links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 180px;
 
 }
-.clients .clients_links a{
+
+.clients .clients_links a {
     display: inline-block;
     max-width: 128px;
 }
-.clients .owl-item{
+
+.clients .owl-item {
     text-align: center;
 }
-.clients .owl-stage{
+
+.clients .owl-stage {
     display: flex;
     align-items: center;
 }
-.clients .owl-nav .owl-prev{
-    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
+
+.clients .owl-nav .owl-prev {
+    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg") !important;
     width: 14px;
     height: 26px;
     position: absolute;
     left: -20px;
     top: 30px;
-    background-color: #FFFFFF!important;
+    background-color: #FFFFFF !important;
 }
-.clients .owl-nav .owl-next{
-    background-color: green!important;
+
+.clients .owl-nav .owl-next {
+    background-color: green !important;
     width: 20px;
     height: 20px;
     position: absolute;
     right: -20px;
     top: 30px;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: black;
+
+}
+
+footer .container {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 36px;
+}
+
+footer .container:nth-of-type(2) {
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 36px 0;
+    margin-bottom: 56px;
+}
+
+footer .container:nth-of-type .ft_right {
+    width: 100%;
+    max-width: 458px;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer .ft_left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+footer .ft_right {
+    display: flex;
+}
+
+footer .ft_right ul {
+    list-style: none;
+}
+
+footer .ft_right ul:first-of-type {
+    margin-right: 55px;
+}
+
+footer .ft_right li {
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+footer .ft_right li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+footer .ft_left h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+footer .ft_left h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+footer .ft_right form {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 6px;
+    width: 100%;
+}
+
+footer .ft_right form input {
+    width: 75%;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+}
+
+footer .ft_right form button {
+    border: none;
+    background: #000000;
+    border-radius: 11px;
+    height: 30px;
+    width: 63px;
+}
+
+footer .ft_icon {
+    margin-left: 20px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
+    background-color: transparent;
+    border: none;
+
+}
+.ui-accordion .ui-accordion-content{
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    max-width: 1168px;
+    margin: auto;
+    text-align: center;
+}
+.ui-icon{
+    display: none;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+    color: black;
+    display: none;
+}
+.ui-state-active .button-down{
+    display: none;
+}
+.button-up,
+.button-down {
+    position: relative;
+    padding: 5px;
+    margin: 30px auto;
+    background: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+
+.button-down:hover {
+    transform: translate3d(0, 10px, 0);
+}
+
+.button-up:hover {
+    transform: translate3d(0, -10px, 0);
+}
+
+.button-up::after,
+.button-down::after {
+    content: "";
+    position: absolute;
+    left: 17px;
+    z-index: 11;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+.button-up::after {
+    top: 20px;
+    transform: rotate(45deg);
+}
+
+.button-down::after {
+    top: 10px;
+    transform: rotate(225deg);
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
+    background-color: transparent;
+    border: none;
+
+}
+.ui-accordion .ui-accordion-content{
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    max-width: 1168px;
+    margin: auto;
+    text-align: center;
+}
+.ui-icon{
+    display: none;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+    color: black;
+    display: none;
+}
+.ui-state-active .button-down{
+    display: none;
+}
+.button-up,
+.button-down {
+    position: relative;
+    padding: 5px;
+    margin: 30px auto;
+    background: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+    right: 550px;
+}
+
+.button-down:hover {
+    transform: translate3d(0, 10px, 0);
+}
+
+.button-up:hover {
+    transform: translate3d(0, -10px, 0);
+}
+
+.button-up::after,
+.button-down::after {
+    content: "";
+    position: absolute;
+    left: 17px;
+    z-index: 11;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+
+}
+.button-up::after {
+    top: 20px;
+    transform: rotate(45deg);
+}
+
+.button-down::after {
+    top: 10px;
+    transform: rotate(225deg);
+    border-bottom: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content{
+    border-bottom: white solid 2px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active, .ui-widget-content::after{
+    border-bottom: none;
 }
