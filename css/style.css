@@ -3,7 +3,10 @@ header {
     padding: 24px 0;
     background: #181818;
 }
-
+.logo{
+    position: relative;
+    z-index: 99;
+}
 header .container {
     max-width: 1200px;
     margin: auto;
